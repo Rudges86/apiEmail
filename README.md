@@ -17,8 +17,15 @@ A documentação da API está disponível via **Swagger**.
 
 ---
 
-## Swagger
+## 🧭 Swagger
 - Por padrão a aplicação sobe na porta 8080.
 - Ao subir a aplicação utilize o endereço: http://localhost:8080/apiemail/swagger-ui/index.html#/email-controller/mailSender
 - No application-dev.properties, adicione um e-mail válido e existente e uma senha para que a api consiga enviar e-mails.
+
+## 📬 Exemplo de request
+{
+  "to": "destinatario@email.com",
+  "subject": "Assunto do Email",
+  "body": "Corpo do email aqui."
+}
 
